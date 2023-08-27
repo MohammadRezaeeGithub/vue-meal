@@ -1,8 +1,8 @@
 <template>
-    <div class="max-w-[800px] bg-white shadow-lg mx-auto p-8">
-      <h1 class="font-bold">{{ meal.strMeal }}</h1>
+    <div class="max-w-[800px] bg-white shadow-lg mx-auto p-8 mt-4">
+      <h1 class="font-bold mx-auto text-center text-2xl mb-2">{{ meal.strMeal }}</h1>
       <img :src="meal.strMealThumb" :alt="meal.strMeal" >
-      <div class="flex justify-between py-3 px-6">
+      <div class="flex justify-between py-3 mx-auto">
         <div>
           <strong>Category: </strong> {{ meal.strCategory }}
         </div>

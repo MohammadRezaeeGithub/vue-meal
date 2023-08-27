@@ -8,7 +8,7 @@
       <router-link :to="{name:'byLetter'}" class="px-2 h-full inline-flex items-center hover:bg-gray-100 transition-all">
         Meals by Letter
       </router-link>
-      <router-link :to="{name:'byIngrediant'}" class="px-2 h-full inline-flex items-center hover:bg-gray-100 transition-all">
+      <router-link :to="{name:'ingrediant'}" class="px-2 h-full inline-flex items-center hover:bg-gray-100 transition-all">
         Meals by Ingrediants
       </router-link>
     </div>
